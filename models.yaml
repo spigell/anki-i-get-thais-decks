@@ -1,0 +1,46 @@
+models:
+  - name: Thai-I-Get-Thais
+    fields:
+        - word_eng
+        - word_tha
+        - word_phonetic
+        - audio
+        - form
+        - video
+        - sentence_tha
+        - sentence_phonetic
+        - sentence_eng
+    css: |
+        .card {
+         font-family: arial;
+         font-size: 20px;
+         text-align: center;
+         color: black;
+         background-color: white;
+        }
+    cardTemplates:
+        - name: Card 1
+          front: |+
+            {{word_eng}}
+
+            <div style='font-family: Arial; font-size: 12px;margin-top: 20px'>{{sentence_eng}}</div>
+
+
+          back: |-
+            {{FrontSide}}
+
+            <hr id=answer>
+
+            {{word_tha}}
+            <div style='font-family: Arial; font-size: 12px;;margin-top: 20px'>{{word_phonetic}}</div>
+
+            <div style='font-family: Arial; font-size: 12px;margin-top: 30px'>{{sentence_tha}}</div>
+            <div style='font-family: Arial; font-size: 12px;margin-top: 10px'>{{sentence_phonetic}}</div>
+
+            {{audio}}
+
+            {{#video}}
+            <div style='margin-top: 20px'>
+              <a href="{{video}}" target="_blank">🔗 Watch Video</a>
+            </div>
+            {{/video}}

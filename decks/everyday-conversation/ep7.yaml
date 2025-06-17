@@ -1,0 +1,111 @@
+deck_name: Thai::IGetThais::EverydayConversation::Ep.7
+model_name: Thai-I-Get-Thais
+primary_field: word_eng
+notes:
+  - fields:
+      word_eng: Definitely yes
+      word_tha: ได้แน่นอน
+      word_phonetic: dâi nâe-nawn
+      audio: ''
+      form: ''
+      sentence_eng: Not definitely / Not certain
+      sentence_tha: ไม่ได้แน่นอน
+      sentence_phonetic: mâi dâi nâe-nawn
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=18s
+    tags: []
+
+  - fields:
+      word_eng: Hope that
+      word_tha: หวังว่า
+      word_phonetic: wăng wâa
+      audio: ''
+      form: ''
+      sentence_eng: Hoping that John can learn Thai within 50 days.
+      sentence_tha: หวังว่าจอห์นจะเรียนภาษาไทยได้ภายใน 50 วัน
+      sentence_phonetic: wăng wâa John jà rean paa-sǎa thai dâi paai nai 50 wan
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=233s
+    tags: []
+
+  - fields:
+      word_eng: Mistake / Error
+      word_tha: ผิดพลาด
+      word_phonetic: pìd-plâad
+      audio: ''
+      form: ''
+      sentence_eng: We all make mistakes
+      sentence_tha: คนเราทำผิดพลาดกันได้
+      sentence_phonetic: kon rao tam pìd-plâad gan dâi
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=373s
+    tags: []
+
+  - fields:
+      word_eng: Have something to do / Have an errand
+      word_tha: มีธุระ
+      word_phonetic: mee tú-rá
+      audio: ''
+      form: ''
+      sentence_eng: Have something to do with a friend
+      sentence_tha: มีธุระกับเพื่อน
+      sentence_phonetic: mee tú-rá gàb pûean
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=555s
+    tags: []
+
+  - fields:
+      word_eng: Familiar
+      word_tha: คุ้นเคย
+      word_phonetic: kún-kəi
+      audio: ''
+      form: ''
+      sentence_eng: We are familiar with each other
+      sentence_tha: เราคุ้นเคยกัน
+      sentence_phonetic: rao kún-kəi gan
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=713s
+    tags: []
+
+  - fields:
+      word_eng: Get used to
+      word_tha: ชิน
+      word_phonetic: chin
+      audio: ''
+      form: ''
+      sentence_eng: Get used to the weather in Thailand
+      sentence_tha: ชินกับอากาศในประเทศไทย
+      sentence_phonetic: chin gàb aa-gàad nai bprà-têt thai
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=827s
+    tags: []
+
+  - fields:
+      word_eng: Recommend / Introduce
+      word_tha: แนะนำ
+      word_phonetic: náe-nam
+      audio: ''
+      form: ''
+      sentence_eng: I will introduce my friend to you.
+      sentence_tha: ผมจะแนะนำเพื่อนให้รู้จัก
+      sentence_phonetic: pŏm jà náe-nam pûean hâi róo-jàg
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=902s
+    tags: []
+
+  - fields:
+      word_eng: Take time / Use time
+      word_tha: ใช้เวลา
+      word_phonetic: chái we-laa
+      audio: ''
+      form: ''
+      sentence_eng: It takes time.
+      sentence_tha: มันต้องใช้เวลา
+      sentence_phonetic: man dtông chái we-laa
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=1065s
+    tags: []
+
+  - fields:
+      word_eng: Have you ever heard? / Have you heard before?
+      word_tha: เคยได้ยินไหม
+      word_phonetic: kəi dâi yin mái
+      audio: ''
+      form: ''
+      sentence_eng: Have you ever heard that….?
+      sentence_tha: เคยได้ยินไหมว่า
+      sentence_phonetic: kəi dâi yin mái wâa
+      video: https://www.youtube.com/watch?v=YpBQjqyBKxU&t=1334s
+    tags: []
