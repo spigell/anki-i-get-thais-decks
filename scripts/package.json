@@ -13,6 +13,6 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "get-descriptions": "tsc --build && node ./dist/get-youtube-descriptions.js"
+    "get-metadata": "tsc --build && node ./dist/get-youtube-metadata.js"
   }
 }

@@ -1,0 +1,47 @@
+name: Get YouTube Metadata For Deck Generation
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  fetch-metadata:
+    permissions:
+      contents: write
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install deps and Build
+        working-directory: ./scripts
+        run: yarn install
+
+      - name: Ensure all existing decks have metadata
+        run: |
+          missing=$(find decks -mindepth 1 -maxdepth 5 -type d ! -exec test -f "{}/.metadata.json" \; -print)
+          if [ -n "$missing" ]; then
+            echo "Error: The following deck(s) are missing processed.txt:"
+            echo "$missing"
+            exit 1
+          fi
+
+      - name: Retrieve YouTube Metadata
+        working-directory: ./scripts
+        run: yarn get-metadata
+
+      - name: Check for changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add decks/processing
+          git commit -m "[auto] update metadata"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
