@@ -2,6 +2,7 @@ import axios from 'axios';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as readline from 'readline';
+import { HttpsProxyAgent } from 'https-proxy-agent';
 import { fileURLToPath } from 'url';
 
 // ESM __dirname workaround
@@ -59,12 +60,17 @@ function extractVideoId(url: string): string | null {
   return match ? match[1] : null;
 }
 
+
+const proxy = 'http://proxy:8080';
+const agent = new HttpsProxyAgent(proxy);
+
 // Fetch metadata using the YouTube API
 async function fetchMetadata(videoId: string): Promise<VideoMetadata> {
   const url = 'https://www.googleapis.com/youtube/v3/videos';
 
     const response = await axios.get<YouTubeApiResponse>(url, {
-      proxy: false,
+      //proxy: false,
+      httpsAgent: agent,
       params: {
         part: 'snippet',
         id: videoId,
