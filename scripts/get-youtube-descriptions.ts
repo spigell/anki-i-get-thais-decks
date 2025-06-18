@@ -61,6 +61,7 @@ async function fetchMetadata(videoId: string): Promise<VideoMetadata> {
   const url = 'https://www.googleapis.com/youtube/v3/videos';
 
     const response = await axios.get<YouTubeApiResponse>(url, {
+      proxy: false,
       params: {
         part: 'snippet',
         id: videoId,
