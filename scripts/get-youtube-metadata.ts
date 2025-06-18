@@ -1,27 +1,27 @@
-import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
-import readline from 'readline';
+import axios from "axios";
+import fs from "fs";
+import path from "path";
+import readline from "readline";
 
 // -----------------------------
 // 🔧 Config
 // -----------------------------
 const API_KEY: string | undefined = process.env.YOUTUBE_API_KEY;
 if (!API_KEY) {
-  console.error('❌ Missing YOUTUBE_API_KEY in environment variables.');
+  console.error("❌ Missing YOUTUBE_API_KEY in environment variables.");
   process.exit(1);
 }
 
-const VIDEO_FILE = 'videos.txt';
-const DECKS_DIR = '../decks';
-const PROCESSING_DIR = '../decks/processing';
+const VIDEO_FILE = "videos.txt";
+const DECKS_DIR = "../decks";
+const PROCESSING_DIR = "../decks/processing";
 
 // -----------------------------
 // 🧩 Types
 // -----------------------------
-interface MetadataJson {
+interface MetadataEntry {
   id: string;
-  //[key: string]: unknown;
+  [key: string]: unknown;
 }
 
 interface YouTubeSnippet {
@@ -60,21 +60,31 @@ async function walkDecksAndCollectVideoIds(dir: string): Promise<Set<string>> {
   const videoIds = new Set<string>();
 
   async function walk(currentPath: string) {
-    const entries = await fs.promises.readdir(currentPath, { withFileTypes: true });
+    const entries = await fs.promises.readdir(currentPath, {
+      withFileTypes: true,
+    });
 
     for (const entry of entries) {
       const fullPath = path.join(currentPath, entry.name);
       if (entry.isDirectory()) {
         await walk(fullPath);
-      } else if (entry.isFile() && entry.name === '.metadata.json') {
+      } else if (entry.isFile() && entry.name === ".metadata.json") {
         try {
-          const content = await fs.promises.readFile(fullPath, 'utf-8');
-          const json = JSON.parse(content) as Partial<MetadataJson>;
+          const content = await fs.promises.readFile(fullPath, "utf-8");
+          const raw = JSON.parse(content);
 
-          if (json.id && typeof json.id === 'string') {
-            videoIds.add(json.id);
-          } else {
-            console.warn(`⚠️ Missing or invalid videoId in ${fullPath}`);
+          const items: MetadataEntry[] = Array.isArray(raw)
+            ? raw
+            : Array.isArray(raw.entries)
+              ? raw.entries
+              : [raw];
+
+          for (const item of items) {
+            if (item && typeof item.id === "string") {
+              videoIds.add(item.id);
+            } else {
+              console.warn(`⚠️ Missing or invalid videoId in ${fullPath}`);
+            }
           }
         } catch (err: any) {
           console.error(`❌ Failed to read ${fullPath}: ${err.message}`);
@@ -87,13 +97,12 @@ async function walkDecksAndCollectVideoIds(dir: string): Promise<Set<string>> {
   return videoIds;
 }
 
-
 async function fetchMetadata(videoId: string): Promise<VideoMetadata> {
-  const url = 'https://www.googleapis.com/youtube/v3/videos';
+  const url = "https://www.googleapis.com/youtube/v3/videos";
 
   const response = await axios.get<YouTubeApiResponse>(url, {
     params: {
-      part: 'snippet',
+      part: "snippet",
       id: videoId,
       key: API_KEY,
     },
@@ -131,7 +140,7 @@ async function main(): Promise<void> {
     const id = extractVideoId(trimmed);
     if (!id) {
       console.warn(`⚠️ Invalid YouTube URL: ${trimmed}`);
-      continue
+      continue;
     }
 
     expectedIds.push(id);
@@ -139,16 +148,18 @@ async function main(): Promise<void> {
 
   const foundIds = await walkDecksAndCollectVideoIds(DECKS_DIR);
 
-  const missing = expectedIds.filter(id => !foundIds.has(id));
+  const missing = expectedIds.filter((id) => !foundIds.has(id));
 
   for (const m of missing) {
-    const metadata = await fetchMetadata(m)
-    fs.writeFileSync(`${DECKS_DIR}/processing/${metadata.id}.json`, JSON.stringify(metadata, null, 2));
+    const metadata = await fetchMetadata(m);
+    fs.writeFileSync(
+      `${DECKS_DIR}/processing/${metadata.id}.json`,
+      JSON.stringify(metadata, null, 2),
+    );
   }
-
 }
 
-main().catch(err => {
-  console.error('❌ Script failed:', err);
+main().catch((err) => {
+  console.error("❌ Script failed:", err);
   process.exit(1);
 });

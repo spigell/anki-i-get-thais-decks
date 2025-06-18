@@ -1,0 +1,59 @@
+deck_name: Thai::IGetThais::EverydayConversation::Ep.8
+model_name: Thai-I-Get-Thais
+primary_field: word_eng
+notes:
+  - fields:
+    word_eng: to come first
+    word_tha: มาก่อน
+    word_phonetic: maa gàwn
+    audio: ''
+    form: ''
+    sentence_eng: Who came first?
+    sentence_tha: ใครมาก่อน
+    sentence_phonetic: krai maa gàwn
+    video: https://www.youtube.com/watch?v=YBUBNzhYr4s&t=15s
+  tags: []
+  - fields:
+    word_eng: to come later
+    word_tha: มาทีหลัง
+    word_phonetic: maa tee lăng
+    audio: ''
+    form: ''
+    sentence_eng: I came first, you came later.
+    sentence_tha: ผม/ฉันมาก่อน คุณมาทีหลัง
+    sentence_phonetic: pŏm/chán maa gàwn khun maa tee lăng
+    video: https://www.youtube.com/watch?v=YBUBNzhYr4s&t=214s
+  tags: []
+  - fields:
+    word_eng: It's time, The time has come.
+    word_tha: ถึงเวลา
+    word_phonetic: tŭeng way-laa
+    audio: ''
+    form: ''
+    sentence_eng: It's time to go to work.
+    sentence_tha: ถึงเวลาไปทำงานแล้ว
+    sentence_phonetic: tŭeng way-laa bpai tam ngaan láew
+    video: https://www.youtube.com/watch?v=YBUBNzhYr4s&t=381s
+  tags: []
+  - fields:
+    word_eng: It's time.
+    word_tha: ได้เวลาแล้ว
+    word_phonetic: dâi way-laa láew
+    audio: ''
+    form: ''
+    sentence_eng: It's time to go to work.
+    sentence_tha: ได้เวลาไปทำงานแล้ว
+    sentence_phonetic: dâi way-laa bpai tam ngaan láew
+    video: https://www.youtube.com/watch?v=YBUBNzhYr4s&t=496s
+  tags: []
+  - fields:
+    word_eng: to have an appointment
+    word_tha: มีนัด
+    word_phonetic: mee nád
+    audio: ''
+    form: ''
+    sentence_eng: I have an appointment with a friend at a coffee shop this Sunday.
+    sentence_tha: วันอาทิตย์นี้มีนัดกับเพื่อนที่ร้านกาแฟ
+    sentence_phonetic: wan aa-tíd née mee nád gàb pûean têe ráan-gaa-fae
+    video: https://www.youtube.com/watch?v=YBUBNzhYr4s&t=625s
+  tags: []
