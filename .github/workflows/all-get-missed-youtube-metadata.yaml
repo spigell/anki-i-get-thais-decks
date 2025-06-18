@@ -34,6 +34,8 @@ jobs:
       - name: Retrieve YouTube Metadata
         working-directory: ./scripts
         run: yarn get-metadata
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
       - name: Check for changes
         run: |
