@@ -23,10 +23,10 @@ These commands ensure dependencies are installed and the TypeScript code compile
 - Each note entry should provide a `fields` mapping for card data and an optional `tags` list.
 
 ## Adding New Decks
-- Source metadata lives under `processing/`.
+- Source unproccessed metadata lives under `decks/processing/`.
 - Convert each metadata file there into a deck YAML under `decks/` using the same base name.
-- Keep deck names hierarchical with `::` separators to match Anki sub-decks.
-- When creating a deck from a metadata variant, also generate a `processed.txt` file
+- Keep deck names hierarchical with `::` separators to match Anki sub-decks (you can create a new directories).
+- When creating a deck from a metadata variant, also generate a `.metadata.json` file
   in the deck folder containing the date of processing.
 
 ## Pull Request Notes
