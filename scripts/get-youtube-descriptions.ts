@@ -7,6 +7,9 @@ import { fileURLToPath } from 'url';
 // ESM __dirname workaround
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Disable proxy usage for axios requests in restricted environments
+axios.defaults.proxy = false;
+
 // Environment check
 let API_KEY: string | undefined = process.env.YOUTUBE_API_KEY;
 if (!API_KEY) {
