@@ -22,15 +22,6 @@ jobs:
         working-directory: ./scripts
         run: yarn install
 
-      - name: Ensure all existing decks have metadata
-        run: |
-          missing=$(find decks -mindepth 1 -maxdepth 5 -type d ! -exec test -f "{}/.metadata.json" \; -print)
-          if [ -n "$missing" ]; then
-            echo "Error: The following deck(s) are missing processed.txt:"
-            echo "$missing"
-            exit 1
-          fi
-
       - name: Retrieve YouTube Metadata
         working-directory: ./scripts
         run: yarn get-metadata
