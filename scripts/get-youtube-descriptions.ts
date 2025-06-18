@@ -2,11 +2,24 @@ import axios from 'axios';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as readline from 'readline';
+import { fileURLToPath } from 'url';
+
+// ESM __dirname workaround
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Environment check
-const API_KEY: string | undefined = process.env.YOUTUBE_API_KEY;
+let API_KEY: string | undefined = process.env.YOUTUBE_API_KEY;
 if (!API_KEY) {
-  console.error('❌ Missing YOUTUBE_API_KEY in environment variables.');
+  const keyPath = path.resolve(__dirname, '../.youtube_api_key');
+  if (fs.existsSync(keyPath)) {
+    API_KEY = fs.readFileSync(keyPath, 'utf-8').trim();
+  }
+}
+
+if (!API_KEY) {
+  console.error(
+    '❌ Missing YOUTUBE_API_KEY environment variable and scripts/.youtube_api_key file.'
+  );
   process.exit(1);
 }
 
