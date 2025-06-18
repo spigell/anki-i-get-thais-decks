@@ -13,7 +13,7 @@ Run the following commands before committing if you modify any code under `scrip
 ```bash
 cd scripts
 yarn install
-npx tsc --build
+yarn build
 ```
 
 These commands ensure dependencies are installed and the TypeScript code compiles.
