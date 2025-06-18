@@ -20,8 +20,10 @@ const PROCESSING_DIR = '../decks/processing';
 // 🧩 Types
 // -----------------------------
 interface MetadataJson {
+  decks: VideoMetadata[]
+}
+interface VideoMetadata {
   id: string;
-  //[key: string]: unknown;
 }
 
 interface YouTubeSnippet {
@@ -67,17 +69,19 @@ async function walkDecksAndCollectVideoIds(dir: string): Promise<Set<string>> {
       if (entry.isDirectory()) {
         await walk(fullPath);
       } else if (entry.isFile() && entry.name === '.metadata.json') {
-        try {
-          const content = await fs.promises.readFile(fullPath, 'utf-8');
-          const json = JSON.parse(content) as Partial<MetadataJson>;
+        const content = await fs.promises.readFile(fullPath, 'utf-8');
+        const json = JSON.parse(content) as MetadataJson;
 
-          if (json.id && typeof json.id === 'string') {
-            videoIds.add(json.id);
-          } else {
-            console.warn(`⚠️ Missing or invalid videoId in ${fullPath}`);
+        if (Array.isArray(json.decks)) {
+          for (const deck of json.decks) {
+            if (typeof deck.id === 'string') {
+              videoIds.add(deck.id);
+            } else {
+              console.warn(`⚠️ Invalid deck ID in ${fullPath}:`, deck);
+            }
           }
-        } catch (err: any) {
-          console.error(`❌ Failed to read ${fullPath}: ${err.message}`);
+        } else {
+          console.warn(`⚠️ Missing or invalid 'decks' array in ${fullPath}`);
         }
       }
     }
