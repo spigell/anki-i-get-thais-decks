@@ -1,0 +1,675 @@
+deck_name: Thai::IGetThais::EverydayConversation::Ep.3
+model_name: Thai-I-Get-Thais
+primary_field: word_eng
+notes:
+- fields:
+    word_eng: Let’s go!
+    word_tha: ไปกันเถอะ
+    word_phonetic: bpai gan tə̀
+    audio: ''
+    form: ''
+    sentence_eng: Let’s go!
+    sentence_tha: ไปกันเถอะ
+    sentence_phonetic: bpai gan tə̀
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=23s
+  tags: []
+- fields:
+    word_eng: Let’s eat!
+    word_tha: กินกันเถอะ
+    word_phonetic: kin gan tə̀
+    audio: ''
+    form: ''
+    sentence_eng: Let’s eat!
+    sentence_tha: กินกันเถอะ
+    sentence_phonetic: kin gan tə̀
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=23s
+  tags: []
+- fields:
+    word_eng: Let’s go eat!
+    word_tha: ไปกินข้าวกันเถอะ
+    word_phonetic: bpai kin kâao gan tə̀
+    audio: ''
+    form: ''
+    sentence_eng: Let’s go eat!
+    sentence_tha: ไปกินข้าวกันเถอะ
+    sentence_phonetic: bpai kin kâao gan tə̀
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=23s
+  tags: []
+- fields:
+    word_eng: Let’s go travel!
+    word_tha: ไปเที่ยวกันเถอะ
+    word_phonetic: bpai tîaw gan tə̀
+    audio: ''
+    form: ''
+    sentence_eng: Let’s go travel!
+    sentence_tha: ไปเที่ยวกันเถอะ
+    sentence_phonetic: bpai tîaw gan tə̀
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=23s
+  tags: []
+- fields:
+    word_eng: to wait
+    word_tha: รอ
+    word_phonetic: raw
+    audio: ''
+    form: ''
+    sentence_eng: to wait
+    sentence_tha: รอ
+    sentence_phonetic: raw
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: Wait a moment!
+    word_tha: รอเดี๋ยว
+    word_phonetic: raw dǐaw
+    audio: ''
+    form: ''
+    sentence_eng: Wait a moment!
+    sentence_tha: รอเดี๋ยว
+    sentence_phonetic: raw dǐaw
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: ''
+    word_tha: รอเดี๋ยวนะ
+    word_phonetic: raw dǐaw ná
+    audio: ''
+    form: ''
+    sentence_eng: ''
+    sentence_tha: รอเดี๋ยวนะ
+    sentence_phonetic: raw dǐaw ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: Wait a moment first!
+    word_tha: รอก่อน
+    word_phonetic: raw gòn
+    audio: ''
+    form: ''
+    sentence_eng: Wait a moment first!
+    sentence_tha: รอก่อน
+    sentence_phonetic: raw gòn
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: Wait for me a second!
+    word_tha: รอแป๊บนึง
+    word_phonetic: raw bpáb nueng
+    audio: ''
+    form: ''
+    sentence_eng: Wait for me a second!
+    sentence_tha: รอแป๊บนึง
+    sentence_phonetic: raw bpáb nueng
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: Wait a moment, please!
+    word_tha: รอสักครู่
+    word_phonetic: raw ság krôo
+    audio: ''
+    form: ''
+    sentence_eng: Wait a moment, please!
+    sentence_tha: รอสักครู่
+    sentence_phonetic: raw ság krôo
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=134s
+  tags: []
+- fields:
+    word_eng: Don’t forget!
+    word_tha: อย่าลืม
+    word_phonetic: yàa luem
+    audio: ''
+    form: ''
+    sentence_eng: Don’t forget!
+    sentence_tha: อย่าลืม
+    sentence_phonetic: yàa luem
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=429s
+  tags: []
+- fields:
+    word_eng: Don’t forget the phone!
+    word_tha: อย่าลืมโทรศัพท์นะ
+    word_phonetic: yàa luem torásàb ná
+    audio: ''
+    form: ''
+    sentence_eng: Don’t forget the phone!
+    sentence_tha: อย่าลืมโทรศัพท์นะ
+    sentence_phonetic: yàa luem torásàb ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=429s
+  tags: []
+- fields:
+    word_eng: to help
+    word_tha: ช่วย
+    word_phonetic: chûay
+    audio: ''
+    form: ''
+    sentence_eng: to help
+    sentence_tha: ช่วย
+    sentence_phonetic: chûay
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=479s
+  tags: []
+- fields:
+    word_eng: Help me!
+    word_tha: ช่วยด้วย ๆ
+    word_phonetic: chûay dûay x2
+    audio: ''
+    form: ''
+    sentence_eng: Help me!
+    sentence_tha: ช่วยด้วย ๆ
+    sentence_phonetic: chûay dûay x2
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=479s
+  tags: []
+- fields:
+    word_eng: Give me a hand!
+    word_tha: ช่วยหน่อย
+    word_phonetic: chûay c
+    audio: ''
+    form: ''
+    sentence_eng: Give me a hand!
+    sentence_tha: ช่วยหน่อย
+    sentence_phonetic: chûay c
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=479s
+  tags: []
+- fields:
+    word_eng: ''
+    word_tha: ช่วยหน่อยนะ
+    word_phonetic: chûay nòi ná
+    audio: ''
+    form: ''
+    sentence_eng: ''
+    sentence_tha: ช่วยหน่อยนะ
+    sentence_phonetic: chûay nòi ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=479s
+  tags: []
+- fields:
+    word_eng: can, able to
+    word_tha: ได้
+    word_phonetic: dâi
+    audio: ''
+    form: ''
+    sentence_eng: can, able to
+    sentence_tha: ได้
+    sentence_phonetic: dâi
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: /ค่ะ Yes, I can.
+    word_tha: ได้ครับ
+    word_phonetic: dâi kráb/kà
+    audio: ''
+    form: ''
+    sentence_eng: /ค่ะ Yes, I can.
+    sentence_tha: ได้ครับ
+    sentence_phonetic: dâi kráb/kà
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: Certainly!
+    word_tha: ได้เลย
+    word_phonetic: dâi loei
+    audio: ''
+    form: ''
+    sentence_eng: Certainly!
+    sentence_tha: ได้เลย
+    sentence_phonetic: dâi loei
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: Sure, Of course!
+    word_tha: ได้สิ
+    word_phonetic: dâi sì
+    audio: ''
+    form: ''
+    sentence_eng: Sure, Of course!
+    sentence_tha: ได้สิ
+    sentence_phonetic: dâi sì
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: Can, but!
+    word_tha: ได้อยู่
+    word_phonetic: dâi yòo
+    audio: ''
+    form: ''
+    sentence_eng: Can, but!
+    sentence_tha: ได้อยู่
+    sentence_phonetic: dâi yòo
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: = ไม่ได้
+    word_tha: ได้อยู่
+    word_phonetic: dâi yòo tâo gàb mâi dâi
+    audio: ''
+    form: ''
+    sentence_eng: = ไม่ได้
+    sentence_tha: ได้อยู่
+    sentence_phonetic: dâi yòo tâo gàb mâi dâi
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: Is this shirt beautiful?
+    word_tha: เสื้อตัวนี้สวยมั้ย
+    word_phonetic: sûa dtua née sǔay mái
+    audio: ''
+    form: ''
+    sentence_eng: Is this shirt beautiful?
+    sentence_tha: เสื้อตัวนี้สวยมั้ย
+    sentence_phonetic: sûa dtua née sǔay mái
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=549s
+  tags: []
+- fields:
+    word_eng: fit
+    word_tha: พอดี
+    word_phonetic: paw dee
+    audio: ''
+    form: ''
+    sentence_eng: fit
+    sentence_tha: พอดี
+    sentence_phonetic: paw dee
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=793s
+  tags: []
+- fields:
+    word_eng: fit perfectly!
+    word_tha: พอดีเลย
+    word_phonetic: paw dee loei
+    audio: ''
+    form: ''
+    sentence_eng: fit perfectly!
+    sentence_tha: พอดีเลย
+    sentence_phonetic: paw dee loei
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=793s
+  tags: []
+- fields:
+    word_eng: Unfortunately!
+    word_tha: พอดี
+    word_phonetic: paw dee
+    audio: ''
+    form: ''
+    sentence_eng: Unfortunately!
+    sentence_tha: พอดี
+    sentence_phonetic: paw dee
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=793s
+  tags: []
+- fields:
+    word_eng: Unfortunately, forgot to bring my wallet.
+    word_tha: พอดี ลืมเอากระเป๋าตังค์มา
+    word_phonetic: paw dee luem grà-bpǎo dtang maa
+    audio: ''
+    form: ''
+    sentence_eng: Unfortunately, forgot to bring my wallet.
+    sentence_tha: พอดี ลืมเอากระเป๋าตังค์มา
+    sentence_phonetic: paw dee luem grà-bpǎo dtang maa
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=793s
+  tags: []
+- fields:
+    word_eng: Be careful, Watch out!
+    word_tha: ระวัง
+    word_phonetic: ráwang
+    audio: ''
+    form: ''
+    sentence_eng: Be careful, Watch out!
+    sentence_tha: ระวัง
+    sentence_phonetic: ráwang
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=923s
+  tags: []
+- fields:
+    word_eng: Mind your head!
+    word_tha: ระวังหัว
+    word_phonetic: ráwang hǔa
+    audio: ''
+    form: ''
+    sentence_eng: Mind your head!
+    sentence_tha: ระวังหัว
+    sentence_phonetic: ráwang hǔa
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=923s
+  tags: []
+- fields:
+    word_eng: Be careful!
+    word_tha: ระวังตัว
+    word_phonetic: ráwang dtua
+    audio: ''
+    form: ''
+    sentence_eng: Be careful!
+    sentence_tha: ระวังตัว
+    sentence_phonetic: ráwang dtua
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=923s
+  tags: []
+- fields:
+    word_eng: Beware of pain!
+    word_tha: ระวังเจ็บ
+    word_phonetic: ráwang jèb
+    audio: ''
+    form: ''
+    sentence_eng: Beware of pain!
+    sentence_tha: ระวังเจ็บ
+    sentence_phonetic: ráwang jèb
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=923s
+  tags: []
+- fields:
+    word_eng: dangerous, harmful
+    word_tha: อันตราย
+    word_phonetic: an-dtà-raai
+    audio: ''
+    form: ''
+    sentence_eng: dangerous, harmful
+    sentence_tha: อันตราย
+    sentence_phonetic: an-dtà-raai
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: dangerous driving
+    word_tha: ขับรถอันตราย
+    word_phonetic: kàb ród an-dtà-raai
+    audio: ''
+    form: ''
+    sentence_eng: dangerous driving
+    sentence_tha: ขับรถอันตราย
+    sentence_phonetic: kàb ród an-dtà-raai
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: Very dangerous driving!
+    word_tha: โห ขับรถอันตรายมาก
+    word_phonetic: hǒ kàb ród an-dtà-raai
+    audio: ''
+    form: ''
+    sentence_eng: Very dangerous driving!
+    sentence_tha: โห ขับรถอันตรายมาก
+    sentence_phonetic: hǒ kàb ród an-dtà-raai
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: Very dangerous driving!
+    word_tha: โห ขับรถอันตรายจัง
+    word_phonetic: hǒ kàb ród an-dtà-raai jang
+    audio: ''
+    form: ''
+    sentence_eng: Very dangerous driving!
+    sentence_tha: โห ขับรถอันตรายจัง
+    sentence_phonetic: hǒ kàb ród an-dtà-raai jang
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: Very dangerous!
+    word_tha: โห อันตรายมาก
+    word_phonetic: hǒ an-dtà-raai mâag
+    audio: ''
+    form: ''
+    sentence_eng: Very dangerous!
+    sentence_tha: โห อันตรายมาก
+    sentence_phonetic: hǒ an-dtà-raai mâag
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: Very dangerous!
+    word_tha: โห อันตรายจัง
+    word_phonetic: hǒ an-dtà-raai jang
+    audio: ''
+    form: ''
+    sentence_eng: Very dangerous!
+    sentence_tha: โห อันตรายจัง
+    sentence_phonetic: hǒ an-dtà-raai jang
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=998s
+  tags: []
+- fields:
+    word_eng: to be calm
+    word_tha: ใจเย็น
+    word_phonetic: jai yen
+    audio: ''
+    form: ''
+    sentence_eng: to be calm
+    sentence_tha: ใจเย็น
+    sentence_phonetic: jai yen
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1078s
+  tags: []
+- fields:
+    word_eng: be hot-headed
+    word_tha: ใจร้อน
+    word_phonetic: jai rón
+    audio: ''
+    form: ''
+    sentence_eng: be hot-headed
+    sentence_tha: ใจร้อน
+    sentence_phonetic: jai rón
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1122s
+  tags: []
+- fields:
+    word_eng: miss, think of
+    word_tha: คิดถึง
+    word_phonetic: kíd tǔeng
+    audio: ''
+    form: ''
+    sentence_eng: miss, think of
+    sentence_tha: คิดถึง
+    sentence_phonetic: kíd tǔeng
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1159s
+  tags: []
+- fields:
+    word_eng: I miss you.
+    word_tha: คิดถึงนะ
+    word_phonetic: kíd tǔeng ná
+    audio: ''
+    form: ''
+    sentence_eng: I miss you.
+    sentence_tha: คิดถึงนะ
+    sentence_phonetic: kíd tǔeng ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1159s
+  tags: []
+- fields:
+    word_eng: Miss you so much.
+    word_tha: คิดถึงจัง
+    word_phonetic: kíd tǔeng jang
+    audio: ''
+    form: ''
+    sentence_eng: Miss you so much.
+    sentence_tha: คิดถึงจัง
+    sentence_phonetic: kíd tǔeng jang
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1159s
+  tags: []
+- fields:
+    word_eng: I really miss you.
+    word_tha: คิดถึงจังเลย
+    word_phonetic: kíd tǔeng jang loei
+    audio: ''
+    form: ''
+    sentence_eng: I really miss you.
+    sentence_tha: คิดถึงจังเลย
+    sentence_phonetic: kíd tǔeng jang loei
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1159s
+  tags: []
+- fields:
+    word_eng: Long time no see!
+    word_tha: ไม่ได้เจอกันตั้งนาน
+    word_phonetic: mâi dâi jer gan dtáng naan
+    audio: ''
+    form: ''
+    sentence_eng: Long time no see!
+    sentence_tha: ไม่ได้เจอกันตั้งนาน
+    sentence_phonetic: mâi dâi jer gan dtáng naan
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1246s
+  tags: []
+- fields:
+    word_eng: See you again tomorrow!
+    word_tha: เจอกันใหม่พรุ่งนี้
+    word_phonetic: jer gan mài prûng née
+    audio: ''
+    form: ''
+    sentence_eng: See you again tomorrow!
+    sentence_tha: เจอกันใหม่พรุ่งนี้
+    sentence_phonetic: jer gan mài prûng née
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1297s
+  tags: []
+- fields:
+    word_eng: See you tomorrow!
+    word_tha: เจอกันพรุ่งนี้
+    word_phonetic: jer gan prûng née
+    audio: ''
+    form: ''
+    sentence_eng: See you tomorrow!
+    sentence_tha: เจอกันพรุ่งนี้
+    sentence_phonetic: jer gan prûng née
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1297s
+  tags: []
+- fields:
+    word_eng: ''
+    word_tha: เจอกันใหม่พรุ่งนี้นะ
+    word_phonetic: jer gan mài prûng née ná
+    audio: ''
+    form: ''
+    sentence_eng: ''
+    sentence_tha: เจอกันใหม่พรุ่งนี้นะ
+    sentence_phonetic: jer gan mài prûng née ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1297s
+  tags: []
+- fields:
+    word_eng: ''
+    word_tha: เจอกันพรุ่งนี้นะ
+    word_phonetic: jer gan prûng née ná
+    audio: ''
+    form: ''
+    sentence_eng: ''
+    sentence_tha: เจอกันพรุ่งนี้นะ
+    sentence_phonetic: jer gan prûng née ná
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1297s
+  tags: []
+- fields:
+    word_eng: /ค่ะ After you!
+    word_tha: เชิญคุณก่อนครับ
+    word_phonetic: chern khun gòn kráb/kà
+    audio: ''
+    form: ''
+    sentence_eng: /ค่ะ After you!
+    sentence_tha: เชิญคุณก่อนครับ
+    sentence_phonetic: chern khun gòn kráb/kà
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1349s
+  tags: []
+- fields:
+    word_eng: /ค่ะ Afer you!
+    word_tha: เชิญก่อนเลยครับ
+    word_phonetic: chern gòn loei kráb/kà
+    audio: ''
+    form: ''
+    sentence_eng: /ค่ะ Afer you!
+    sentence_tha: เชิญก่อนเลยครับ
+    sentence_phonetic: chern gòn loei kráb/kà
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1349s
+  tags: []
+- fields:
+    word_eng: /คะ As you feel comfortable, Make yourself at home.
+    word_tha: ตามสบายนะครับ
+    word_phonetic: dtaam sàbaai ná kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ As you feel comfortable, Make yourself at home.
+    sentence_tha: ตามสบายนะครับ
+    sentence_phonetic: dtaam sàbaai ná kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1435s
+  tags: []
+- fields:
+    word_eng: /คะ Go for it!
+    word_tha: เต็มที่เลยนะครับ
+    word_phonetic: dtem têe loei ná kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Go for it!
+    sentence_tha: เต็มที่เลยนะครับ
+    sentence_phonetic: dtem têe loei ná kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1497s
+  tags: []
+- fields:
+    word_eng: Self-service
+    word_tha: บริการตัวเอง
+    word_phonetic: bo-rí-gaan dtua neng
+    audio: ''
+    form: ''
+    sentence_eng: Self-service
+    sentence_tha: บริการตัวเอง
+    sentence_phonetic: bo-rí-gaan dtua neng
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1547s
+  tags: []
+- fields:
+    word_eng: Help yourself!
+    word_tha: ช่วยเหลือตัวเอง
+    word_phonetic: chûay lǔea dtua neng
+    audio: ''
+    form: ''
+    sentence_eng: Help yourself!
+    sentence_tha: ช่วยเหลือตัวเอง
+    sentence_phonetic: chûay lǔea dtua neng
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1547s
+  tags: []
+- fields:
+    word_eng: /คะ Would you like anything else?
+    word_tha: รับอะไรเพิ่มมั้ยครับ
+    word_phonetic: ráb àrai pêrm mái kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Would you like anything else?
+    sentence_tha: รับอะไรเพิ่มมั้ยครับ
+    sentence_phonetic: ráb àrai pêrm mái kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1713s
+  tags: []
+- fields:
+    word_eng: /คะ Do you want anything else?
+    word_tha: เอาอะไรเพิ่มมั้ยครับ
+    word_phonetic: ao àrai pêrm mái kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Do you want anything else?
+    sentence_tha: เอาอะไรเพิ่มมั้ยครับ
+    sentence_phonetic: ao àrai pêrm mái kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1713s
+  tags: []
+- fields:
+    word_eng: /คะ Is there anything else?
+    word_tha: มีอะไรอีกมั้ยครับ
+    word_phonetic: mee àrai èeg mái kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Is there anything else?
+    sentence_tha: มีอะไรอีกมั้ยครับ
+    sentence_phonetic: mee àrai èeg mái kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1799s
+  tags: []
+- fields:
+    word_eng: Thank you!
+    word_tha: ขอบคุณ
+    word_phonetic: kòb khun
+    audio: ''
+    form: ''
+    sentence_eng: Thank you!
+    sentence_tha: ขอบคุณ
+    sentence_phonetic: kòb khun
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1842s
+  tags: []
+- fields:
+    word_eng: /ค่ะ Thank you for using the service.
+    word_tha: ขอบคุณที่ใช้บริการนะครับ
+    word_phonetic: kòb khun têe chái bo-rí-gaan kráb/kà
+    audio: ''
+    form: ''
+    sentence_eng: /ค่ะ Thank you for using the service.
+    sentence_tha: ขอบคุณที่ใช้บริการนะครับ
+    sentence_phonetic: kòb khun têe chái bo-rí-gaan kráb/kà
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1842s
+  tags: []
+- fields:
+    word_eng: /คะ Thank you for your help.
+    word_tha: ขอบคุณที่ช่วยเหลือนะครับ
+    word_phonetic: kòb khun têe chûay lǔea ná kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Thank you for your help.
+    sentence_tha: ขอบคุณที่ช่วยเหลือนะครับ
+    sentence_phonetic: kòb khun têe chûay lǔea ná kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1842s
+  tags: []
+- fields:
+    word_eng: /คะ Thank you for your help.
+    word_tha: ขอบคุณที่ช่วยนะครับ
+    word_phonetic: kòb khun têe chûay ná kráb/ká
+    audio: ''
+    form: ''
+    sentence_eng: /คะ Thank you for your help.
+    sentence_tha: ขอบคุณที่ช่วยนะครับ
+    sentence_phonetic: kòb khun têe chûay ná kráb/ká
+    video: https://www.youtube.com/watch?v=7YQwMHEvu90&t=1842s
+  tags: []
