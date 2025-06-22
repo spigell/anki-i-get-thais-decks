@@ -25,9 +25,13 @@ These commands ensure dependencies are installed and the TypeScript code compile
 ## Adding New Decks
 - Source unproccessed metadata lives under `decks/processing/`.
 - Convert each metadata file there into a deck YAML under `decks/` using the same base name.
-- Keep deck names hierarchical with `::` separators to match Anki sub-decks (you can create a new directories).
-- When creating a deck from a metadata variant, also generate a `.metadata.json` (or add to existing) file
-  in the deck folder containing the date from unprocessed metadata and date of processing.
+ - Keep deck names hierarchical with `::` separators to match Anki sub-decks (you can create a new directories).
+ - When creating a deck from a metadata variant, also generate a `.metadata.json` (or add to existing) file
+   in the deck folder containing the date from unprocessed metadata and date of processing.
+
+## Metadata
+- `.metadata.json` files must be valid JSON. Verify with `python -m json.tool` or `jq .` before committing.
+- After processing a metadata file into a deck, delete the original JSON from `decks/processing/`.
 
 ## Pull Request Notes
 - Summaries must mention the purpose of the change and reference relevant files with line numbers.
