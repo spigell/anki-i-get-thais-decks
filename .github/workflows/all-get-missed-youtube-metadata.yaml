@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          if git diff --quiet decks/processing; then
+          if [ -z "$(git status --porcelain decks/processing)" ]; then
             echo "No metadata updates found"
             exit 0
           fi
