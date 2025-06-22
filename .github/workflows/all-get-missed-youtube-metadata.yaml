@@ -28,10 +28,14 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
-      - name: Check for changes
+      - name: Commit metadata updates
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          if git diff --quiet decks/processing; then
+            echo "No metadata updates found"
+            exit 0
+          fi
           git add decks/processing
           git commit -m "[auto] update metadata"
       - name: Push changes
