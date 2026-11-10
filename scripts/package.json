@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "get-metadata": "tsc --build && node ./dist/get-youtube-metadata.js"
+    "get-metadata": "tsc --build && node ./dist/get-youtube-metadata.js",
+    "list-videos": "tsc --build && node ./dist/list-channel-videos.js"
   }
 }
